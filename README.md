@@ -51,11 +51,6 @@ Welcome to the <strong>Bug Bounty Methodology 2025 Edition</strong>! This method
 subfinder -d target.com -silent -all -recursive -o subfinder_subs.txt
 ```
 
-**Subfinder For List of Domains**
-```bash
-subfinder -dL domains.txt -silent -all -recursive -o subfinder_subs.txt
-```
-
 **Amass (Passive Mode)**
 ```bash
 amass enum -passive -d target.com -o amass_passive_subs.txt
